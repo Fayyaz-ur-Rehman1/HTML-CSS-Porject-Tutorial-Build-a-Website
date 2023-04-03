@@ -27,8 +27,8 @@
             <!--links-->
             <div class="nav-links">
                 <a href="index.html" class="nav-link">Home</a>
-                <a href="tags.html" class="nav-link">about</a>
-                <a href="about.html" class="nav-link">tags</a>
+                <a href="tags.html" class="nav-link">tags</a>
+                <a href="about.html" class="nav-link">about</a>
                 <a href="recipes.html" class="nav-link">recipes</a>
                 <div class="nav-link contact-link">
                     <a href="contact.html" class="btn">contact</a>
@@ -40,7 +40,66 @@
 
     <!--main-->
     <main class="page">
-        <h1>Contact Page</h1>
+
+        <section class="contact-container">
+            <article class="contact-info">
+                <h3>Want To Get In Touch ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea facere reiciendis vel eius earum non
+                    deleniti delectus repudiandae dolorum. Vitae.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eos totam laborum reiciendis
+                    tempore dicta.</p>
+            </article>
+            <article>
+                <form class="form contact-form">
+                    <!--single form row-->
+                    <div class="form-row">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" name="name" id="name" class="form-input" />
+                    </div>
+                    <!--end of single form row-->
+                    <!--single form row-->
+                    <div class="form-row">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="text" name="email" id="email" class="form-input" />
+                    </div>
+                    <!--end of single form row-->
+                    <div class="form-row">
+                        <label for="massage" class="form-labek">Massage</label>
+                        <textarea name="massage" id="massage" class="form-textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block">Submit</button>
+                </form>
+            </article>
+        </section>
+        <section class="featured-recipes">
+            <h5 class="featured-title">Look At this Awesomesource!</h5>
+            <!--recipes list-->
+            <div class="recipes-list">
+                <!--single recipe-->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="./assets/recipes/recipe-1.jpeg" alt="food" class="img recipe-img">
+                    <h5>carne asada</h5>
+                    <p>prep : 15min | Cook :5</p>
+                </a>
+                <!--end of single recipe-->
+                <!--single recipe-->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="./assets/recipes/recipe-2.jpeg" alt="food" class="img recipe-img">
+                    <h5>greek ribs</h5>
+                    <p>prep : 15min | Cook :5</p>
+                </a>
+                <!--end of recipe single-->
+                <!--single recipe-->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="./assets/recipes/recipe-3.jpeg" alt="food" class="img recipe-img">
+                    <h5>vegetable soup</h5>
+                    <p>prep : 15min | Cook :5</p>
+                </a>
+                <!--end of recipe single-->
+            </div>
+            <!--end of recipes list-->
+        </section>
     </main>
     <!--end of main-->
 
